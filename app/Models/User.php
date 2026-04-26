@@ -28,6 +28,7 @@ class User extends Authenticatable implements FilamentUser
 
     /** @use HasFactory<UserFactory> */
     use HasFactory;
+
     use HasPanelShield;
     use HasRoles;
     use LogsActivity;
